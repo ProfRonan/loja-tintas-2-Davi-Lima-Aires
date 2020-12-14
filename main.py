@@ -15,7 +15,7 @@ def main():
     qtd_gal =int(-(-volume//3.6))
     valor2 = qtd_gal*25
     print(f'O valor gasto comprando apenas galões é de R$ {valor2:.2f}.')
-    print(f'Serão necessárias {qtd_gal} galões.')
+    print(f'Serão necessários {qtd_gal} galões.')
     volume = (area/6)*1.1
     qtd_latas_int = int(volume//18)
     vol_rest_l = volume%18
